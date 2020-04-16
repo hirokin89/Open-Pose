@@ -94,10 +94,6 @@ while part <= 18:
 '''
 _, result_img, _, _ = decode_pose(oriImg, heatmaps, pafs)
 
-'''
-plt.imshow(oriImg)
-plt.show()
-'''
 plt.imshow(result_img)
 plt.show()
 
